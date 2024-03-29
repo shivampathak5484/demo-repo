@@ -1,0 +1,104 @@
+# x=10
+# def add(x):
+#     x=5
+#     x=x+10
+
+#     return x
+
+# print(add(10))
+# print(x)
+# '''
+# Problem
+# Solve
+# History
+ 
+# python 1 lambda_function
+# You have been provided with a list of numbers. Write a lambda function to count a specific number in the list.
+
+# Input
+# The first line of the input contains a space-separated list of integers.
+
+# The second line of the input contains an integer n
+
+# Output
+# The total count of n in the list
+
+# Example
+# Input
+# 1 2 3 4 4 5
+
+# Output
+# 2
+# '''
+
+#lambda_function= [1,2,3,4,4,5]
+# list=[1,2,3,4,4,5]
+# n=int(input("enter the value "))
+# for i in n:
+#     if n in list:
+    
+    
+
+
+
+# You are given an empty list. Your task is to perform multiple operations as given in the input.
+
+# Input
+# The first line of the input contains the an integer n which repsents number of lines
+
+# The next n lines contains space separated name of the function and arguments
+
+# Output
+# Perform different operations as per the given input and print final list
+
+# Example
+# Input
+# 8
+
+# append 2
+
+# insert 0 1
+
+# extend 3 4
+
+# extend 5
+
+# pop
+
+# remove 4
+
+# reverse
+
+# sort
+
+# output
+# [1, 2, 3]
+
+# a=[]
+# i= int(input("enter total number of lines"))
+# for b in range(0,i):
+#     x=input("enter your command")
+#     if x=="append":
+#         y=int(input("enter number to apend"))
+#         a.append(y)
+#         print(a)
+#     elif x=="insert":
+#         y=int(input("enter number to insert"))
+#         p=int(input("enter index number"))
+#         a.insert(p,y)
+#         print(a)
+#     elif x=="extend":
+#         y=int(input("enter number to extend"))
+
+#         a.extend(y)
+#         print(a)
+#     elif x=="remove":
+#         y=int(input("enter number to remove"))
+#         a.remove(y)
+#         print(a)
+#     elif x=="reverse":
+#         a=a[::-1]
+#         print(a)
+#     elif x=="sort":
+#         a=a.sort()
+#         print(a)
